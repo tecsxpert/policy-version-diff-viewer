@@ -1,0 +1,31 @@
+# Environment files — never commit these
+.env
+*.env
+
+# Java build files
+target/
+*.class
+*.jar
+
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# AI data
+chroma_data/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
